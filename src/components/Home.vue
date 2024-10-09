@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <div class="about">
-      <a href="#about">关于</a>
+      <a href="/about">关于</a>
     </div>
     <div class="logo">
       Seekr
@@ -15,9 +15,8 @@
       <p>
         &copy; <a href="https://xiaowangye.org" target="_blank">xiaowangye.org</a>.
         Forked from <a href="https://github.com/KoriIku/luxiry-search" target="_blank">
-          Luxiry Search
+          Luxiry Search.
         </a>
-        .
       </p>
     </footer>
   </div>

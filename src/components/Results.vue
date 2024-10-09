@@ -3,6 +3,7 @@
     <div class="search-container" id="searchContainer">
       <h1 class="search-title" @click="goHome" role="link" tabindex="0">Seekr</h1>
       <div class="gcse-searchbox"></div>
+      <router-link to="/about" class="about-link">关于</router-link>
     </div>
     <div class="search-result-zone">
       <div class="gcse-searchresults" data-linkTarget="_blank" data-refinementStyle="link"></div>
@@ -11,9 +12,8 @@
       <p>
         &copy; <a href="https://xiaowangye.org" target="_blank">xiaowangye.org</a>.
         Forked from <a href="https://github.com/KoriIku/luxiry-search" target="_blank">
-          Luxiry Search
+          Luxiry Search.
         </a>
-        .
       </p>
     </footer>
   </div>
@@ -186,5 +186,15 @@ footer img {
     opacity: 0.9;
     /* 提高图像的亮度，适应深色背景 */
   }
+}
+
+.about-link {
+  margin-left: 20px;
+  text-decoration: none;
+  color: var(--uv-styles-color-text-default);
+}
+
+.about-link:hover {
+  text-decoration: underline;
 }
 </style>
