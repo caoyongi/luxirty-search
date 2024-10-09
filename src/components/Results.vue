@@ -1,7 +1,7 @@
 <template>
   <div class="my-container">
     <div class="search-container" id="searchContainer">
-      <h1 class="search-title" @click="goHome">Luxirty Search</h1>
+      <h1 class="search-title" @click="goHome" role="link" tabindex="0">Seekr</h1>
       <div class="gcse-searchbox"></div>
     </div>
     <div class="search-result-zone">
@@ -9,10 +9,11 @@
     </div>
     <footer>
       <p>
-        &copy; Create by <a href="https://luxirty.com/posts/luxirty-search/" target="_blank">Luxirty</a> with &hearts; |
-        <a href="https://github.com/KoriIku/luxiry-search" target="_blank">
-          GitHub
+        &copy; <a href="https://xiaowangye.org" target="_blank">xiaowangye.org</a>.
+        Forked from <a href="https://github.com/KoriIku/luxiry-search" target="_blank">
+          Luxiry Search
         </a>
+        .
       </p>
     </footer>
   </div>
@@ -86,6 +87,9 @@ export default {
   margin-right: 20px;
   white-space: nowrap;
   user-select: none;  /* 防止标题文字被选中 */
+  cursor: pointer;  /* 添加指针样式 */
+  text-decoration: none;  /* 移除默认的下划线 */
+  transition: color 0.3s ease;  /* 添加颜色过渡效果 */
 }
 
 /* 针对小屏幕的样式 */
@@ -112,6 +116,14 @@ export default {
   .search-title {
     color: #d1d5db;
     /* 黑暗模式下的颜色 */
+  }
+
+  .search-title:hover {
+    color: #a0c3e0;  /* 黑暗模式下鼠标悬停时的颜色 */
+  }
+
+  .search-title:focus {
+    outline-color: #a0c3e0;  /* 黑暗模式下的焦点颜色 */
   }
 }
 
