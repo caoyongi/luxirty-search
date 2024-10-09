@@ -16,11 +16,9 @@ export default defineConfig({
   build: {
     rollupOptions: {
       output: {
-        format: 'es',
-        entryFileNames: 'assets/[name].js',
-        chunkFileNames: 'assets/[name].js',
-        assetFileNames: 'assets/[name].[ext]'
+        manualChunks: undefined
       }
     }
-  }
+  },
+  base: './'
 })
