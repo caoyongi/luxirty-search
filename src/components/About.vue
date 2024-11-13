@@ -1,12 +1,12 @@
 <template>
   <div class="about-container">
     <div class="search-container" id="searchContainer">
-      <h1 class="search-title" @click="goHome" role="link" tabindex="0">Seekr</h1>
+      <h1 class="search-title" @click="goHome" role="link" tabindex="0">Yonx Search</h1>
     </div>
     <div class="content">
-      <h2>关于 Seekr</h2>
+      <h2>关于 Yonx Search</h2>
       <div class="content-section">
-        <p>Seekr 是一个基于 Google 的自定义搜索引擎，专为提高搜索效率而设计。</p>
+        <p>Yonx Search 是一个基于 Google 的自定义搜索引擎，专为提高搜索效率而设计。</p>
       </div>
       <div class="content-section">
         <h3>主要特性:</h3>
@@ -19,7 +19,7 @@
         </ul>
       </div>
       <div class="content-section">
-        <p>Seekr 旨在为用户提供更高效、更有针对性的搜索体验，让您更快地找到所需的信息。</p>
+        <p>Yonx Search 旨在为用户提供更高效、更有针对性的搜索体验，让您更快地找到所需的信息。</p>
         <p>本项目基于 <a href="https://github.com/KoriIku/luxiry-search" target="_blank">Luxiry Search</a> 开发。</p>
       </div>
     </div>
