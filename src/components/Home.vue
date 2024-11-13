@@ -4,7 +4,7 @@
       <a href="/about">关于</a>
     </div>
     <div class="logo">
-      Seekr
+      Yonx Search
     </div>
     <div class="search-container">
       <div class="gcse-searchbox-only" data-resultsUrl="search"></div>
@@ -13,7 +13,7 @@
     <!-- 添加页脚 -->
     <footer>
       <p>
-        &copy; <a href="https://xiaowangye.org" target="_blank">xiaowangye.org</a>.
+        &copy; <a href="https://www.yonx.net" target="_blank">yonx.net</a>.
         Forked from <a href="https://github.com/KoriIku/luxiry-search" target="_blank">
           Luxiry Search.
         </a>
