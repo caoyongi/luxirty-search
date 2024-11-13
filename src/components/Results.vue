@@ -1,7 +1,7 @@
 <template>
   <div class="my-container">
     <div class="search-container" id="searchContainer">
-      <h1 class="search-title" @click="goHome" role="link" tabindex="0">Seekr</h1>
+      <h1 class="search-title" @click="goHome" role="link" tabindex="0">Yonx Search</h1>
       <div class="gcse-searchbox"></div>
       <router-link to="/about" class="about-link">关于</router-link>
     </div>
@@ -10,7 +10,7 @@
     </div>
     <footer>
       <p>
-        &copy; <a href="https://xiaowangye.org" target="_blank">xiaowangye.org</a>.
+        &copy; <a href="https://www.yonx.net" target="_blank">yonx.net</a>.
         Forked from <a href="https://github.com/KoriIku/luxiry-search" target="_blank">
           Luxiry Search.
         </a>
